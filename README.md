@@ -27,4 +27,4 @@ Basic syntax:
 
 
 You can learn about brainfuck here: http://en.wikipedia.org/wiki/Brainfuck
-Usage in test.py file.
+Using the module is in test.py file.
