@@ -65,12 +65,10 @@ class BFInterpreter:
                         }
                 for c in self.bf:
                         if self.should_iterate == True:
-                                print("Iterálás")
+                                #print("Iterate")
                                 self.commands[c]()
 
-                for m in range(1,10):
-                        self.pot = m
-                        print(str(self.tape[self.pot]))
-                                            
-test = BFInterpreter(input("Enter your Code: "))
-test.exec()
+##                for m in range(1,10):
+##                        self.pot = m
+##                        print(str(self.tape[self.pot]))                                         
+
