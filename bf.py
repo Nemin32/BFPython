@@ -1,7 +1,4 @@
 class BFInterpreter:
-
-        #global tape
-        #global pot
         def __init__(self,bf):
                 self.bf = bf
                 self.tape = [0]*30000
